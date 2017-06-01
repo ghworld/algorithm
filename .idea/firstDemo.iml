@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/LIS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LCS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/extractSummary.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/heapSort.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Box.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/maximumSubarray.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Box.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/findFirstCommonNode.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/quickSort.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/climbStairs.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/yinYong_dizhi.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/getKSamllNumberss.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mergeTwoLists.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/trailingZeroes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test.cpp" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -2,7 +2,7 @@
 // Created by mi on 6/1/17.
 //
 #include "Utils.h"
-#include <regex.h>
+
 
 
 class HeapSort {
@@ -24,10 +24,11 @@ class HeapSort {
         while (k < len) {
             int max_index = k;
             int l = left(k);
+            int r = right(k);
+
             if (l < len && nums[l] > nums[max_index]) {
                 max_index = l;
             }
-            int r = right(k);
             if (r < len && nums[r] > nums[max_index]) {
                 max_index = r;
             }
@@ -45,7 +46,7 @@ class HeapSort {
 
 
     void build_max_heapify(vector<int> &nums, int heap_size) {
-        for (int i = heap_size / 2; i >= 0; i--) {
+        for (int i = heap_size / 2-1; i >= 0; i--) {
             max_heapify(nums, i, heap_size);
         }
         print_heap(nums, heap_size);
@@ -76,8 +77,9 @@ public:
 
 };
 
-int main(){
-    int A[]={10,1,2,3,4,7,5,6};
+
+/*int main(){
+    int A[]={1,10,2,3,4,7,5,6};
     vector<int> nums;
     for(int i =0;i<sizeof(A)/sizeof(A[0]);i++)
         nums.push_back(A[i]);
@@ -86,5 +88,5 @@ int main(){
     sort.print_heap(nums,nums.size());
     cout<<"*****************"<<endl;
     sort.heap_sort(nums);
-}
+}*/
 

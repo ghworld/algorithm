@@ -30,6 +30,7 @@ int adjustArray(int s[], int l, int r) {
             j--;
         }
     }
+
     s[i] = BASED;
 
     return i;

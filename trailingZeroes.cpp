@@ -11,17 +11,13 @@ int trailingZeroes(int n) {
     if (n < 5) {
         result = 0;
     } else {
-
         int k = n / 5;
         while (k > 0) {
             result += k;
             k = k / 5;
         }
-
     }
-
     return result;
-
 }
 /*
 

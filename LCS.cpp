@@ -3,16 +3,12 @@
 //
 #include <string>
 #include <vector>
-#include <math.h>
 #include <iostream>
 
-using std::string;
-using std::vector;
-using std::max;
-using std::cout;
-using std::endl;
 
+using namespace std;
 
+// 最长公共子序列
 void print_LCS(vector<vector<int>> LCS, string A, string B,int i ,int  j ) {
 
     int len_A = A.size();
@@ -39,7 +35,7 @@ void print_LCS(vector<vector<int>> LCS, string A, string B,int i ,int  j ) {
 }
 
 
-void scan_ventor(vector<vector<int>> A) {
+void scan_vector(vector<vector<int>> A) {
     int m = A.size();
     int n = A[0].size();
 
@@ -70,13 +66,11 @@ int LCS(string A, string B) {
             } else {
                 LCS[i][j] = max(LCS[i - 1][j], LCS[i][j - 1]);
             }
-
-
         }
     }
 
 //scan vector
-    scan_ventor(LCS);
+    scan_vector(LCS);
     cout << "===================" << endl;
 //print longest common subsequence
     print_LCS(LCS, A, B,1+len_A,1+len_B);
@@ -84,6 +78,9 @@ int LCS(string A, string B) {
     return LCS[len_A][len_B];
 
 }
+
+
+
 /*
 
 

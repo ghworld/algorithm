@@ -19,6 +19,19 @@ struct User {
 };
 
 /*
+
+int main() {
+
+    string s1 = "guohao";
+    cout << s1[0];
+
+
+}
+
+*/
+
+
+/*
 int main() {
     User *user1 = new User(1);
     std::cout << user1->age << endl;

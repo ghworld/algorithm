@@ -2,24 +2,46 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/LIS.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LCS.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Utils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/quickSort2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/最小栈/minStack.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/stackQuene.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/climbStairs.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sqrt.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/两个队列实现一个栈/twoQueueAStack.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LRUCache.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biSearch.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Box.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/extractSummary.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/heapSort.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Box.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/maximumSubarray.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Box.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/findFirstCommonNode.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/quickSort.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/climbStairs.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/yinYong_dizhi.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/getKSamllNumberss.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/mergeTwoLists.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LIS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/最大乘积子序列/maxProduct.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/search2DMatrix.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/trailingZeroes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/maximumSubarray.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nQueen.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/yinYong_dizhi.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/二叉树的镜像/bTreeRotate.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LCS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rotateString.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/heapSort2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/binaryTreeMaxLen.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/用两个栈实现一个队列/twoStackAQueue.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/removeDuplicates.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/myStack.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Box.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BinaryTree.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mergeTwoLists.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/findFirstCommonNode.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/最大和子串/masSum.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/最长公共子序列/LCS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/quickSort.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/getKSamllNumberss.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/searchRotatedSortedArray.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mergeSort.cpp" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

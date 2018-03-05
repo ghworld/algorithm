@@ -2,8 +2,8 @@
 // Created by mi on 5/25/17.
 //
 
-//#ifndef FIRSTDEMO_UTILS_H
-//#define FIRSTDEMO_UTILS_H
+#ifndef FIRSTDEMO_UTILS_H
+#define FIRSTDEMO_UTILS_H
 
 #include <iostream>
 #include <stdio.h>
@@ -18,8 +18,9 @@ using std::endl;
 using std::vector;
 using std::string;
 using std::max;
-using std::greater;
+//using std::greater;
 
 
+//刚开始还是多手写的好
 
-//#endif //FIRSTDEMO_UTILS_H
+#endif //FIRSTDEMO_UTILS_H

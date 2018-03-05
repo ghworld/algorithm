@@ -7,7 +7,6 @@
 typedef struct LNode {
     int val;
     LNode *next;
-
     LNode(int val) : val(val) {}
 } ListNode;
 

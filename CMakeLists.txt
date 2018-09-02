@@ -47,4 +47,4 @@ set(SOURCE_FILES
         二叉树双向链表/BiTree2LinkList_v2.cpp
         AB/AB.cpp 016-反转链表/reverselist1.cpp 二叉树遍历/BiTreePreTraversal.cpp 010-二进制中1的数个/numberOf1_2.cpp 堆排序/heapSort_20180812.cpp 快速排序/quickSort_20180812.cpp)
 
-add_executable(algorithm ${SOURCE_FILES})
+add_executable(algorithm ${SOURCE_FILES} 二叉树遍历/BiTreePreTraversal.cpp)

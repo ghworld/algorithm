@@ -17,9 +17,7 @@ public:
 
     TreeNode(int x) :
             value(x), left(NULL), right(NULL) {
-
     }
-
 };
 
 

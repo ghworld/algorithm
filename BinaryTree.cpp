@@ -144,11 +144,8 @@ BTree InvertTree(BTree tree) {
         top->pRchild=tmp;
         if(top->pLchild) stack.push(top->pLchild);
         if(top->pRchild) stack.push(top->pRchild);
-
     }
-
     return tree;
-
 }
 
 

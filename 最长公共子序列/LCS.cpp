@@ -15,7 +15,7 @@ public:
     void LCS(vector<string> A,vector<string> B){
         vector<vector<int>> matrix=vector<vector<int>>(A.size()+1,vector<int>(B.size()+1));
         cout<<endl<<"scan matrix"<<endl;
-        scan_vector(matrix);
+        printVector(matrix);
         // 生成标示矩阵
         for(int i=1;i<A.size()+1;i++){
             for(int j=1;j<B.size()+1;j++){
@@ -27,7 +27,7 @@ public:
             }
         }
         cout<<endl<<"scan matrix"<<endl;
-        scan_vector(matrix);
+        printVector(matrix);
 
         // 根据矩阵提取LCS
         cout<<endl<<"scan LCS"<<endl;
@@ -38,9 +38,7 @@ public:
         int i=A.size();
         int j=B.size();
         int k=matrix[i][j];
-
         string s[k];
-
         cout<<"s.length():\t"<<s->length()<<endl;
         while (k>0){
 
@@ -63,12 +61,11 @@ public:
             k=k-1;
         }
         cout<< "序列：\t"<<endl;
-
         for (int p=0;p< sizeof(s)/sizeof(s[0]);p++){
             cout<<s[p]<<"\t";
         }
     }
-    void scan_vector(vector<vector<int>> matrix){
+    void printVector(vector<vector<int>> matrix){
         int m=matrix[0].size();
         int n=matrix.size();
         for (int i=0;i<m;i++){
@@ -79,18 +76,18 @@ public:
         }
     }
 };
-
-
-int main(){
-
-    Solution solution;
-    vector<string> A={"A","B","C","D","E"};
-    vector<string> B={"A","B","C","D","E"};
-    solution.LCS(A,B);
-
-//    int a[3]={0};
-//    vector<int> v=vector<int>(3);
-//    cout<<endl<<a[0]<<endl;
-//    cout<<v[0]<<endl;
-
-}
+//
+//
+//int main(){
+//
+//    Solution solution;
+//    vector<string> A={"A","B","C","D","E"};
+//    vector<string> B={"A","B","C","D","E"};
+//    solution.LCS(A,B);
+//
+////    int a[3]={0};
+////    vector<int> v=vector<int>(3);
+////    cout<<endl<<a[0]<<endl;
+////    cout<<v[0]<<endl;
+//
+//}

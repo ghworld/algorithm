@@ -1,4 +1,15 @@
 /home/mi/bin/clion-2017.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mi/GIT_WORKSPACE/algorithm
 -- Configuring done
+CMake Error at CMakeLists.txt:50 (add_executable):
+  Cannot find source file:
+
+    stackQuene.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: algorithm
+CMake Error: Cannot determine link language for target "algorithm".
 -- Generating done
 -- Build files have been written to: /home/mi/GIT_WORKSPACE/algorithm/cmake-build-debug

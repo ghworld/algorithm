@@ -61,7 +61,6 @@ LNode *findFirstCommonNode(LinkList pHead1, LinkList pHead2) {
     while (headLong!=NULL && headShort!=NULL && headLong!=headShort){
         headLong=headLong->next;
         headShort=headShort->next;
-
     }
 
     ListNode* commonNode=headLong;

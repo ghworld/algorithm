@@ -67,11 +67,7 @@ public:
         for (int p=0;p< sizeof(s)/sizeof(s[0]);p++){
             cout<<s[p]<<"\t";
         }
-
-
-
     }
-
     void scan_vector(vector<vector<int>> matrix){
         int m=matrix[0].size();
         int n=matrix.size();
@@ -82,7 +78,6 @@ public:
             cout<<endl;
         }
     }
-
 };
 
 
@@ -92,5 +87,10 @@ int main(){
     vector<string> A={"A","B","C","D","E"};
     vector<string> B={"A","B","C","D","E"};
     solution.LCS(A,B);
+
+//    int a[3]={0};
+//    vector<int> v=vector<int>(3);
+//    cout<<endl<<a[0]<<endl;
+//    cout<<v[0]<<endl;
 
 }

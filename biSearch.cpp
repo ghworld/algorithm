@@ -3,7 +3,7 @@
 //
 #include <vector>
 #include <iostream>
-using std::vector;
+using namespace std;
 
 
 class solution{
@@ -21,10 +21,8 @@ public:
             } else if(nums[mid] <target ){
                 right=mid-1;
             }
-
         }
         return  -1;
-
     }
 };
 

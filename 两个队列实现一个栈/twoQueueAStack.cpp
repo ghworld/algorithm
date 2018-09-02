@@ -22,8 +22,9 @@ public:
 
         if (q1.empty() && q2.empty()){
             cout<<"two stack is empty";
-            exit(-1);
+            return -1;
         }
+
         if (q1.empty()){
             while (q2.size()>1){
                 q1.push(q2.front());

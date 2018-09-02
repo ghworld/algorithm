@@ -23,17 +23,15 @@ public:
     int dequeue(){
         if (s2.empty()){
             while (!s1.empty()){
-                s2.push(s1.top());
+                int top=s1.top();
+                s2.push(top);
                 s1.pop();
             }
         }
-
         int top=s2.top();
         s2.pop();
         return top;
-
     }
-
 };
 //
 //int main(){

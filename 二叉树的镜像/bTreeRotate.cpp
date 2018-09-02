@@ -6,68 +6,63 @@
 #include <iostream>
 
 
-
 using namespace std;
 
 
-struct TreeNode{
+struct TreeNode {
 public:
     int value;
     struct TreeNode *left;
     struct TreeNode *right;
-    TreeNode(int x):
-            value(x),left(NULL),right(NULL)
-    {
+
+    TreeNode(int x) :
+            value(x), left(NULL), right(NULL) {
 
     }
 
 };
 
 
-class Solution{
+class Solution {
 public:
-    void rotate(TreeNode *root){
-        if(root==NULL)
-            return ;
-        if(root->left ==NULL && root->right ==NULL)
-            return ;
-        swap(root->left,root->right);
+//普通的递归版本
+    void rotate(TreeNode *root) {
+        if (root == NULL)
+            return;
+        if (root->left == NULL && root->right == NULL)
+            return;
+        swap(root->left, root->right);
         rotate(root->left);
         rotate(root->right);
     }
 
-    void swap(TreeNode *left,TreeNode *right){
+    /*void swap(TreeNode *left, TreeNode *right) {
         TreeNode *tmp;
-        *tmp=*left;
-        *left=*right;
-        *right=*tmp;
+        *tmp = *left;
+        *left = *right;
+        *right = *tmp;
     }
 
-    void swap_dizhi(int *x,int *y){
+    void swap_dizhi(int *x, int *y) {
         int *tmp;
-        tmp=x;
-        x=y;
-        y=tmp;
+        tmp = x;
+        x = y;
+        y = tmp;
     }
 
-    void swap_yiyong(int &x,int &y){
+    void swap_yiyong(int &x, int &y) {
         int tmp;
-        tmp=x;
-        x=y;
-        y=tmp;
-    }
+        tmp = x;
+        x = y;
+        y = tmp;
+    }*/
 
 };
 
 
-class Solution2{
-//    层次遍历 反转二叉树
 
 
-};
-
-/*
-int main(){
+/*int main(){
     cout<<"this is a main!"<<endl;
 
     TreeNode *node1=new TreeNode(1);

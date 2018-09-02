@@ -89,7 +89,6 @@ public:
                 pos = biSearch(arr, max_pos, v1[i]);
                 arr[pos] = v1[i];
             }
-
         }
         return max_pos;
 

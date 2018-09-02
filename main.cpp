@@ -18,17 +18,25 @@ struct User {
 
 };
 
-/*
+typedef struct TNode{
+    int data;
+//    TNode *left;
+}TreeNode;
 
-int main() {
+//int main() {
+////
+////    string s1 = "guohao";
+////    cout << s1[0];
+//
+//    TreeNode node;
+//    node.data=1;
+//    cout <<node.data;
+//
+//    TreeNode *node2=new TreeNode();
+//    node2->data=2;
+//    cout<<node2->data;
+//}
 
-    string s1 = "guohao";
-    cout << s1[0];
-
-
-}
-
-*/
 
 
 /*

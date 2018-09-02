@@ -12,7 +12,6 @@ using namespace std;
 //这只是个最普通的方法;
 class Solution{
 
-public:
     stack<int> s1;
     stack<int> s2;
 
@@ -27,13 +26,10 @@ public:
                 s1.pop();
             }
         }
-
         int top=s2.top();
         s2.pop();
         return top;
-
     }
-
 };
 //
 //int main(){

@@ -12,9 +12,7 @@ int adjustArray(int s[], int l, int r) {
     int i = l;
     int j = r;
     int BASED = s[i];
-
     while (i < j) {
-        //
         while (i < j & s[j] > BASED) {
             j--;
         }
@@ -30,13 +28,9 @@ int adjustArray(int s[], int l, int r) {
             j--;
         }
     }
-
     s[i] = BASED;
-
     return i;
-
 }
-
 
 void quickSort(int arr[], int l, int r) {
     if (l < r) {
@@ -44,24 +38,19 @@ void quickSort(int arr[], int l, int r) {
         quickSort(arr, 0, i - 1);
         quickSort(arr, i + 1, r);
     }
-
 }
 
 
 /*
 
 int main() {
-
     int arr[5] = {2, 3, 4, 1, 5};
-
 //    adjustArray(s, 0, 4);
-
     quickSort(arr, 0, 4);
-    cout << "======================" << endl;
+    cout << "#################" << endl;
     for (int i = 0; i < 5; i++) {
         cout << arr[i] << "\t";
     }
-
 }
 
  */
